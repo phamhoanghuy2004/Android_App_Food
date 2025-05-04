@@ -300,17 +300,17 @@
 
                 </androidx.cardview.widget.CardView>
 
+                <!-- Fix button order -->
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btn_order"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="36dp"
                     android:background="@drawable/bg_orange_button"
                     android:text="Đặt hàng"
                     android:layout_marginHorizontal="100dp"
                     android:layout_marginBottom="40dp"
-                    android:textAllCaps="false"
                     android:textColor="@color/white"
-                    android:textSize="20sp" />
+                    android:textSize="18sp" />
             </LinearLayout>
         </ScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
